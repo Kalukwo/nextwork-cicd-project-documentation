@@ -1,4 +1,4 @@
-- [Day 1 PDF](Day1/proposal.pdf)
+- [Day 1 PDF](day1/day1.pdf)
 
 Set Up a Web App Using AWS and VS Code
 Author: Shadrack Kalukwo
