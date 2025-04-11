@@ -64,3 +64,48 @@ Navigate to the project repository:
 ```bash
 cd ~/Repos/Nextwork-Devops
 
+
+Set key permissions:
+
+bash
+Copy
+Edit
+chmod 400 Nextwork-keypair.pem
+🔌 SSH Connection to EC2
+Connected to EC2 using:
+
+bash
+Copy
+Edit
+ssh -i Nextwork-keypair.pem ec2-user@<your-ec2-ip>
+Required the IPv4 address of the EC2 instance.
+
+☕ Java & Maven Setup
+Apache Maven: Automates software building.
+
+Java (Amazon Corretto 8): Required to build the web application.
+
+🏗️ Creating the Application
+Generated the Java web app using Maven:
+
+bash
+Copy
+Edit
+mvn archetype:generate \
+  -DgroupId=com.nextwork.app \
+  -DartifactId=nextwork-web-project \
+  -DarchetypeArtifactId=maven-archetype-webapp \
+  -DinteractiveMode=false
+🗂️ Project Structure
+src/ and webapp/: Created by Maven, include config and web files.
+
+index.jsp: Edited and customized to reflect my content.
+
+🖱️ Final Thoughts
+Using the Remote - SSH extension and VS Code made the development seamless, allowing me to manage and deploy my Java web app directly in the cloud.
+
+css
+Copy
+Edit
+
+Let me know if you want it styled for a blog post, exported to a PDF, or saved in a file!
