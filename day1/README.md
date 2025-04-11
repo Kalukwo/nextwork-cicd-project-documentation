@@ -8,7 +8,7 @@
 
 **Author:** Shadrack Kalukwo  
 **Organization:** NextWork.org  
-**Date:** April 11–16, 2025  
+**Date:** April 11, 2025  
 **Project:** Part 1 of CI/CD Pipeline Series
 
 ---
