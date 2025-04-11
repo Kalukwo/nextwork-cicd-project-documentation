@@ -1,3 +1,5 @@
+- [Day 1 PDF](Day1/proposal.pdf)
+
 Set Up a Web App Using AWS and VS Code
 Author: Shadrack Kalukwo
 Organization: NextWork.org
