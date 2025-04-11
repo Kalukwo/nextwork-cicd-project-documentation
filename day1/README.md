@@ -1,6 +1,6 @@
 ## 📄 View PDF Report
 
-[Click here to view Day 1 PDF in your browser](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork_CICD_project/main/day1/day1.pdf) *(opens in a new tab)*
+[Click here to view Day 1 PDF in your browser](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork_CICD_project/main/day1/day1.pdf) *(open in a new tab)*
 
 
 
