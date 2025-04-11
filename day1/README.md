@@ -63,49 +63,49 @@ Navigate to the project repository:
 
 ```bash
 cd ~/Repos/Nextwork-Devops
+```
 
+## 🔐 Set Key Permissions
 
-Set key permissions:
+To ensure secure access to your EC2 instance, set appropriate permissions for your key pair:
 
-bash
-Copy
-Edit
+```bash
 chmod 400 Nextwork-keypair.pem
-🔌 SSH Connection to EC2
-Connected to EC2 using:
+```
 
-bash
-Copy
-Edit
+## 🔌 SSH Connection to EC2
+Connect to your EC2 instance using the private key:
+
+```bash
 ssh -i Nextwork-keypair.pem ec2-user@<your-ec2-ip>
-Required the IPv4 address of the EC2 instance.
+```
+✅ Replace <your-ec2-ip> with the actual IPv4 address of your EC2 instance.
 
-☕ Java & Maven Setup
-Apache Maven: Automates software building.
 
-Java (Amazon Corretto 8): Required to build the web application.
+## ☕ Java & Maven Setup
+Apache Maven: Used to automate software building.
 
-🏗️ Creating the Application
-Generated the Java web app using Maven:
+Java (Amazon Corretto 8): Required to build and run the web application.
 
-bash
-Copy
-Edit
+## 🏗️ Creating the Application
+Generate a basic Java web application using Maven:
+
+```bash
 mvn archetype:generate \
   -DgroupId=com.nextwork.app \
   -DartifactId=nextwork-web-project \
   -DarchetypeArtifactId=maven-archetype-webapp \
   -DinteractiveMode=false
-🗂️ Project Structure
-src/ and webapp/: Created by Maven, include config and web files.
+```
+## 🗂️ Project Structure
+src/ and webapp/: Created automatically by Maven. They contain configuration and web files.
 
-index.jsp: Edited and customized to reflect my content.
+index.jsp: Edited and customized to reflect personal or project-specific content.
 
-🖱️ Final Thoughts
-Using the Remote - SSH extension and VS Code made the development seamless, allowing me to manage and deploy my Java web app directly in the cloud.
+## 🖱️ Final Thoughts
+Using the Remote - SSH extension in VS Code made the development process seamless. It allowed direct editing and deployment of the Java web application in a cloud-based EC2 environment — no need to manually transfer files.
 
-css
-Copy
-Edit
+```vbnet
+Let me know if you'd like this split into sections for a blog series, or turned into a PDF or HTML doc.
+```
 
-Let me know if you want it styled for a blog post, exported to a PDF, or saved in a file!
