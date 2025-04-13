@@ -1,3 +1,8 @@
+## 📄 View PDF Report
+
+[Click here to view Day 2 PDF in your browser](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork_CICD_project/main/day2/day2.pdf) *(open in a new tab)*
+
+
 # Connect a GitHub Repo with AWS
 
 **Author:** Shadrack Kalukwo  
