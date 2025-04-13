@@ -1,10 +1,14 @@
-[View Day 1 PDF](day1.pdf)
+## 📄 View PDF Report
+
+[Click here to view Day 1 PDF in your browser](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork_CICD_project/main/day1/day1.pdf) *(open in a new tab)*
+
+
 
 # Set Up a Web App Using AWS and VS Code
 
 **Author:** Shadrack Kalukwo  
 **Organization:** NextWork.org  
-**Date:** April 11–16, 2025  
+**Date:** April 11, 2025  
 **Project:** Part 1 of CI/CD Pipeline Series
 
 ---
@@ -59,4 +63,49 @@ Navigate to the project repository:
 
 ```bash
 cd ~/Repos/Nextwork-Devops
+```
+
+## 🔐 Set Key Permissions
+
+To ensure secure access to your EC2 instance, set appropriate permissions for your key pair:
+
+```bash
+chmod 400 Nextwork-keypair.pem
+```
+
+## 🔌 SSH Connection to EC2
+Connect to your EC2 instance using the private key:
+
+```bash
+ssh -i Nextwork-keypair.pem ec2-user@<your-ec2-ip>
+```
+✅ Replace <your-ec2-ip> with the actual IPv4 address of your EC2 instance.
+
+
+## ☕ Java & Maven Setup
+Apache Maven: Used to automate software building.
+
+Java (Amazon Corretto 8): Required to build and run the web application.
+
+## 🏗️ Creating the Application
+Generate a basic Java web application using Maven:
+
+```bash
+mvn archetype:generate \
+  -DgroupId=com.nextwork.app \
+  -DartifactId=nextwork-web-project \
+  -DarchetypeArtifactId=maven-archetype-webapp \
+  -DinteractiveMode=false
+```
+## 🗂️ Project Structure
+src/ and webapp/: Created automatically by Maven. They contain configuration and web files.
+
+index.jsp: Edited and customized to reflect personal or project-specific content.
+
+## 🖱️ Final Thoughts
+Using the Remote - SSH extension in VS Code made the development process seamless. It allowed direct editing and deployment of the Java web application in a cloud-based EC2 environment — no need to manually transfer files.
+
+```vbnet
+Let me know if you'd like this split into sections for a blog series, or turned into a PDF or HTML doc.
+```
 
