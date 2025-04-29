@@ -1,6 +1,9 @@
 ## 📄 View PDF Report
 
-[Click here to view Day 1 PDF in your browser](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork_CICD_project/main/day1/day1.pdf) *(Right click & open in a new tab)*
+<a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork_CICD_project/main/day1/day1.pdf" target="_blank" rel="noopener noreferrer">
+  Click here to view Day 1 PDF in your browser
+</a>
+
 
 
 # Set Up a Web App Using AWS and VS Code
