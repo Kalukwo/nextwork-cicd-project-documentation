@@ -107,7 +107,4 @@ index.jsp: Edited and customized to reflect personal or project-specific content
 ## 🖱️ Final Thoughts
 Using the Remote - SSH extension in VS Code made the development process seamless. It allowed direct editing and deployment of the Java web application in a cloud-based EC2 environment — no need to manually transfer files.
 
-```vbnet
-Let me know if you'd like this split into sections for a blog series, or turned into a PDF or HTML doc.
-```
 
