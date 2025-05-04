@@ -6,11 +6,12 @@ This repository contains documentation, architectural overviews, and deployment 
 
 ---
 
-## 📘 Source Code Repository
+## Source Code Repository
 <a href="https://github.com/Kalukwo/nextwork-cicd-web-project">
   Click here to view web source code
 </a>
 
+---
 ## Architecture
 ![Project Architecture](architecture-complete.png)
 
