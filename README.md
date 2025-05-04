@@ -29,7 +29,7 @@ The project architecture follows a real-world CI/CD setup for deploying a Java w
 
 ---
 
-## ⚙️ Technology Breakdown
+##  Technology Breakdown
 
 ### 🧑‍💻 Development Environment
 - **Key Pair**: Used to securely SSH into EC2 instances (e.g., development and production environments).
@@ -55,15 +55,6 @@ The project architecture follows a real-world CI/CD setup for deploying a Java w
 
 ### 📄 Infrastructure as Code (Not Implemented)
 - **AWS CloudFormation**: This was the focus of **Day 6** in the challenge. It was intended to automate infrastructure provisioning. This day was skipped due to it being part of a premium-only section.
-
----
-
-## 📚 Contents of This Repo
-
-- `architecture-complete.png`: Visual overview of the pipeline and deployment flow
-- `day1-day7-notes.md`: Notes, command references, and code snippets from each day's task
-- `troubleshooting.md`: Common issues faced during the challenge and how they were resolved
-- `links.md`: Reference links to official AWS docs and tutorials
 
 ---
 
