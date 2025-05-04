@@ -1,110 +1,48 @@
+# DevOps Project - Day 1: Web App Setup on AWS using VS Code
+
+This project is part of a 7-day DevOps learning series focused on building a CI/CD pipeline. On Day 1, I set up a Java-based web application hosted on an AWS EC2 instance using VS Code and SSH.
+
 ## 📄 View PDF Report
 
 <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork_CICD_project/main/day1/day1.pdf" target="_blank" rel="noopener noreferrer">
   Click here to view Day1 PDF in your browser
 </a>(right click to open in a new tab)
 
+## 🔧 Tools & Technologies
 
+- AWS EC2
+- VS Code with Remote - SSH
+- Java (Amazon Corretto 8)
+- Apache Maven
+- SSH
 
-# Set Up a Web App Using AWS and VS Code
+## 🗂️ What I Did
 
-**Author:** Shadrack Kalukwo  
-**Organization:** NextWork.org  
-**Date:** April 11, 2025  
-**Project:** Part 1 of CI/CD Pipeline Series
+- Launched an AWS EC2 instance to host the web app
+- Enabled SSH and created a key pair for secure access
+- Installed and configured VS Code to remotely access EC2
+- Used terminal commands (`chmod`, `ssh`) to connect and navigate
+- Installed Java and Maven on the server
+- Generated a Java web application using Maven
+- Edited `index.jsp` via VS Code to customize the landing page
 
----
+## 💡 Key Learnings
 
-## 📌 Introducing Today's Project
+- How to securely connect to an EC2 instance using SSH and `.pem` key files
+- How to remotely develop and edit server-side files using VS Code
+- Basics of Maven archetypes and folder structure for Java web apps
 
-In this project, I laid the foundation for a 7-day CI/CD project by building a web app on AWS using Visual Studio Code (VS Code). I connected to my AWS EC2 instance using SSH directly through VS Code.
+## 🧠 Reflection
 
----
+This day was more challenging than expected due to several SSH connection issues, but solving them provided a deeper understanding of cloud-based development environments.
 
-## 🛠️ Key Tools and Concepts
+## 📅 Timeline
 
-- **Remote SSH in VS Code**: Connected VS Code to my EC2 instance, enabling direct file editing on the remote server.
-- **Terminal Commands**: Used terminal commands to navigate, set permissions, and SSH into the EC2 instance.
+- Time Spent: ~2 hours 15 minutes
+- Project Dates: April 11th – April 16th, 2025 (Day 1 completed)
 
----
+## 🔗 Next Steps
 
-## 💭 Project Reflection
-
-I faced several unexpected errors during the setup, which turned into valuable learning experiences. This helped me understand the process on a deeper level.
-
-- **Duration**: ~2 hours 15 minutes  
-- **Most Challenging**: Connecting VS Code to EC2 using Remote SSH  
-- **Most Rewarding**: Solving the errors and gaining broader understanding
-
----
-
-## 🚀 Launching an EC2 Instance
-
-- The EC2 instance served as the cloud-based server for hosting the web app.
-- **SSH Enabled**: For secure access via VS Code.
-
----
-
-## 🔑 Key Pairs
-
-- Consist of a public key and a private key.
-- Private key (`.pem` file) was downloaded during setup for secure SSH login.
-
----
-
-## 🖥️ Setting up VS Code
-
-- Installed VS Code for editing web app code.
-- Installed **Remote - SSH** extension to work on files directly in the EC2 instance.
-
----
-
-## 💻 My First Terminal Commands
-
-Navigate to the project repository:
-
-```bash
-cd ~/Repos/Nextwork-Devops
-```
-
-## 🔐 Set Key Permissions
-
-To ensure secure access to your EC2 instance, set appropriate permissions for your key pair:
-
-```bash
-chmod 400 Nextwork-keypair.pem
-```
-
-## 🔌 SSH Connection to EC2
-Connect to your EC2 instance using the private key:
-
-```bash
-ssh -i Nextwork-keypair.pem ec2-user@<your-ec2-ip>
-```
-✅ Replace <your-ec2-ip> with the actual IPv4 address of your EC2 instance.
-
-
-## ☕ Java & Maven Setup
-Apache Maven: Used to automate software building.
-
-Java (Amazon Corretto 8): Required to build and run the web application.
-
-## 🏗️ Creating the Application
-Generate a basic Java web application using Maven:
-
-```bash
-mvn archetype:generate \
-  -DgroupId=com.nextwork.app \
-  -DartifactId=nextwork-web-project \
-  -DarchetypeArtifactId=maven-archetype-webapp \
-  -DinteractiveMode=false
-```
-## 🗂️ Project Structure
-src/ and webapp/: Created automatically by Maven. They contain configuration and web files.
-
-index.jsp: Edited and customized to reflect personal or project-specific content.
-
-## 🖱️ Final Thoughts
-Using the Remote - SSH extension in VS Code made the development process seamless. It allowed direct editing and deployment of the Java web application in a cloud-based EC2 environment — no need to manually transfer files.
+Continue to build and automate deployment through a complete CI/CD pipeline in the upcoming days.
 
 
