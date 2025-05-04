@@ -6,7 +6,12 @@ This repository contains documentation, architectural overviews, and deployment 
 
 ---
 
-## 📸 Project Architecture
+## 📘 View Project Documentation Repository
+<a href="https://github.com/Kalukwo/nextwork-cicd-web-project">
+  Click here to view documentaion
+</a>
+
+## Architecture
 
 The project architecture follows a real-world CI/CD setup for deploying a Java web application. The flow involves pushing code to GitHub, building it using CodeBuild, storing artifacts in S3, and deploying to an EC2 production instance via CodeDeploy.
 
