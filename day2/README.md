@@ -4,7 +4,7 @@ This project is part of a 7-day DevOps learning series focused on building a CI/
 
 ## 📄 View PDF Report
 
-<a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork-cicd-project-documentation/day2/day2.pdf" target="_blank" rel="noopener noreferrer">
+<a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork-cicd-project-documentation/main/day2/day2.pdf" target="_blank" rel="noopener noreferrer">
   Click here to view Day2 PDF in your browser
 </a> (right click to open in a new tab)
 
