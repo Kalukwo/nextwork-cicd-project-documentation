@@ -1,6 +1,6 @@
 # nextwork-cicd-docs
 
-This repository contains documentation, architectural overviews, and deployment insights for the **7-Day CI/CD Java Web App Project**, which was implemented using various AWS DevOps services and tools.
+### This repository contains documentation, architectural overviews, and deployment insights for the **7-Day CI/CD Java Web App Project**, which was implemented using various AWS DevOps services and tools.
 
 > **Note:** This was a 7-day challenge focused on mastering CI/CD pipelines using AWS. **Day 6** (CloudFormation) was not completed due to it being part of a premium-only module.
 
