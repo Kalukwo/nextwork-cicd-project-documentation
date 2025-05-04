@@ -41,8 +41,5 @@ This day was more challenging than expected due to several SSH connection issues
 - Time Spent: ~2 hours 15 minutes
 - Project Dates: April 11th – April 16th, 2025 (Day 1 completed)
 
-## 🔗 Next Steps
-
-Continue to build and automate deployment through a complete CI/CD pipeline in the upcoming days.
 
 
