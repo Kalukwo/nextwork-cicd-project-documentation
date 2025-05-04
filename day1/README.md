@@ -1,6 +1,9 @@
 ## 📄 View PDF Report
 
-[Click here to view Day 1 PDF in your browser](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork_CICD_project/main/day1/day1.pdf) *(Right click & open in a new tab)*
+<a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Kalukwo/nextwork_CICD_project/main/day1/day1.pdf" target="_blank" rel="noopener noreferrer">
+  Click here to view Day1 PDF in your browser
+</a>(right click to open in a new tab)
+
 
 
 # Set Up a Web App Using AWS and VS Code
@@ -104,7 +107,4 @@ index.jsp: Edited and customized to reflect personal or project-specific content
 ## 🖱️ Final Thoughts
 Using the Remote - SSH extension in VS Code made the development process seamless. It allowed direct editing and deployment of the Java web application in a cloud-based EC2 environment — no need to manually transfer files.
 
-```vbnet
-Let me know if you'd like this split into sections for a blog series, or turned into a PDF or HTML doc.
-```
 
